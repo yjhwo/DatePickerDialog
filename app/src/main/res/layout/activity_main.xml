@@ -25,7 +25,8 @@
         android:text="TimePicker Dialog"
         android:id="@+id/buttonTimePicker"
         android:layout_below="@+id/buttonDatePicker"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="dialogTimePicker"/>
 
     <EditText
         android:layout_width="wrap_content"
